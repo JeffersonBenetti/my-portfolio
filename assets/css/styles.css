@@ -366,3 +366,72 @@ nav ul li a:hover {
     background: transparent;
     transition: 0.7s;
 }
+
+.secForm {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secForm h3 {
+    color: #E0E0E0;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}   
+
+.secForm form {
+    width: 30%;
+    min-width: 350px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 83px -10px rgba(47, 94, 236, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.secForm form input {
+    min-width: 320px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #2F5EEC;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.secForm form textarea {
+    width: 320px;
+    height: 150px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.secForm form button {
+    min-width: 320px;
+    height: 30px;
+    border-radius: 5px;
+    background: #2F5EEC;
+    color: #E0E0E0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.secForm form button:hover {
+    background: transparent;
+    border: 1px solid #2F5EEC;
+    color: #2F5EEC;
+    transition: 0.7s ease-in-out;
+}
+
+.secForm form button:active {
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+}
